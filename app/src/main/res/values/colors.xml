@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Modern Dashboard Palette -->
+    <color name="primaryColor">#1FAF8B</color> <!-- Soft Green Accent -->
+    <color name="primaryLightColor">#E8F5F2</color>
+    <color name="primaryDarkColor">#16896D</color>
+    <color name="accent_green">#1FAF8B</color>
+
+    <color name="backgroundColor">#F5F7F6</color> <!-- Light Grey -->
+    <color name="surface_white">#FFFFFF</color>
+
+    <color name="text_primary">#2D3436</color>
+    <color name="text_secondary">#636E72</color>
+
+    <color name="gradient_start">#1FAF8B</color>
+    <color name="gradient_end">#2ECC71</color>
+
+    <!-- Original Cyber Security Palette (kept for compatibility) -->
+    <color name="secondaryColor">#7000FF</color> <!-- Added back for theme compatibility -->
+    <color name="neon_cyan">#00F2FF</color>
+    <color name="status_safe">#00FF94</color>
+    <color name="status_warning">#FFD600</color>
+    <color name="status_danger">#FF005C</color>
+
+    <!-- Risk Colors -->
+    <color name="risk_safe">#00FF94</color>
+    <color name="risk_medium">#FFD600</color>
+    <color name="risk_high">#FF005C</color>
+
+    <color name="divider_color">#E0E0E0</color>
+
+    <!-- UI Elements -->
+    <color name="card_background">#FFFFFF</color> <!-- Added back for theme compatibility -->
+    <color name="card_shadow">#10000000</color>
+
+    <color name="chat_bg">#F5F7F6</color>
+    <color name="chat_bubble_user">#1FAF8B</color>
+    <color name="chat_bubble_bot">#FFFFFF</color>
+    <color name="chat_text_bot">#2D3436</color>
+    <color name="chat_hint">#B2B2B2</color>
+</resources>
