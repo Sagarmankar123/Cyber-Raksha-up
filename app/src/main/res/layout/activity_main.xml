@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor">
+
+    <!-- ══ TURBO BG LAYERS ══ -->
+    <VideoView android:id="@+id/turboVideo"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:layout_gravity="center" android:visibility="gone"/>
+    <com.cyberraksha.guardian.CyberWebView android:id="@+id/cyberWebCanvas"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <!-- ══ NORMAL DASHBOARD ══ -->
+    <androidx.core.widget.NestedScrollView android:id="@+id/normalScrollView"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:background="@color/backgroundColor"
+        android:clipToPadding="false" android:paddingBottom="80dp">
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="vertical">
+
+            <!-- Header -->
+            <LinearLayout android:id="@+id/headerSection"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:background="@drawable/bg_dashboard_header"
+                android:orientation="vertical"
+                android:paddingStart="24dp" android:paddingEnd="24dp"
+                android:paddingBottom="32dp">
+
+                <TextView android:id="@+id/tvAppName"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="CyberRaksha" android:textColor="@color/white"
+                    android:textSize="22sp" android:textStyle="bold"
+                    android:layout_marginTop="24dp"/>
+
+                <TextView android:id="@+id/tvSecurityStatus"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="● Protected" android:textColor="#CCFFFFFF"
+                    android:textSize="12sp" android:layout_marginTop="2dp"/>
+
+                <TextView android:id="@+id/tvHealthScore"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="97" android:textColor="@color/white"
+                    android:textSize="72sp" android:fontFamily="sans-serif-light"
+                    android:textStyle="bold" android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="8dp"/>
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Device Health Score" android:textColor="#E0FFFFFF"
+                    android:textSize="13sp" android:layout_gravity="center_horizontal"/>
+
+                <com.google.android.material.button.MaterialButton android:id="@+id/btnOptimize"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" android:layout_marginTop="16dp"
+                    android:backgroundTint="@color/white" android:paddingStart="32dp"
+                    android:paddingEnd="32dp" android:text="Optimize Now"
+                    android:textAllCaps="false" android:textColor="@color/primaryColor"
+                    android:textStyle="bold" app:cornerRadius="24dp"/>
+
+                <!-- Island visibility toggle — small pill button -->
+                <TextView
+                    android:id="@+id/btnIslandVisibility"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bg_btn_neutral"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:paddingStart="18dp"
+                    android:paddingEnd="18dp"
+                    android:text="🫥  Hide Island"
+                    android:textColor="#AAFFFFFF"
+                    android:textSize="11sp" />
+
+            </LinearLayout>
+
+            <!-- Content -->
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- EMERGENCY SHIELD HERO -->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardEmergencyShield"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    app:cardCornerRadius="24dp" app:cardElevation="8dp">
+
+                    <LinearLayout android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_emergency_hero"
+                        android:orientation="vertical" android:padding="24dp">
+
+                        <LinearLayout android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal" android:gravity="center_vertical">
+
+                            <LinearLayout android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" android:orientation="vertical">
+
+                                <TextView android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="🛡 Emergency Shield"
+                                    android:textColor="#FFFFFF" android:textSize="20sp"
+                                    android:textStyle="bold"/>
+
+                                <TextView android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="CyberRaksha V1 Core Invention"
+                                    android:textColor="#CCFFFFFF" android:textSize="12sp"
+                                    android:layout_marginTop="2dp"/>
+
+                                <TextView android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Instant lockdown against active fraud"
+                                    android:textColor="#EEFFFFFF" android:textSize="13sp"
+                                    android:layout_marginTop="8dp"/>
+
+                            </LinearLayout>
+
+                            <TextView android:layout_width="56dp" android:layout_height="56dp"
+                                android:text="🚨" android:textSize="32sp"
+                                android:gravity="center"/>
+
+                        </LinearLayout>
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnActivateShield"
+                            android:layout_width="match_parent" android:layout_height="52dp"
+                            android:layout_marginTop="16dp"
+                            android:text="ACTIVATE EMERGENCY SHIELD"
+                            android:textSize="14sp" android:textStyle="bold"
+                            android:backgroundTint="#CC000000"
+                            android:textColor="#FFFFFF"
+                            app:cornerRadius="16dp"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- QUICK TOOLS 2x2 -->
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Quick Tools" android:textColor="@color/text_primary"
+                    android:textSize="16sp" android:textStyle="bold"
+                    android:layout_marginBottom="12dp" android:layout_marginStart="4dp"/>
+
+                <GridLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:columnCount="2">
+
+                    <androidx.cardview.widget.CardView android:id="@+id/cardSecurityScan"
+                        android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_columnWeight="1" android:layout_margin="6dp"
+                        app:cardCornerRadius="20dp" app:cardElevation="2dp"
+                        app:cardBackgroundColor="@color/surface_white">
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                            android:orientation="vertical" android:padding="16dp">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="🔒" android:textSize="28sp"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Security Scan" android:textColor="@color/text_primary"
+                                android:textSize="14sp" android:textStyle="bold" android:layout_marginTop="10dp"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Device Protected" android:textColor="@color/text_secondary"
+                                android:textSize="12sp"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView android:id="@+id/cardSafeSearch"
+                        android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_columnWeight="1" android:layout_margin="6dp"
+                        app:cardCornerRadius="20dp" app:cardElevation="2dp"
+                        app:cardBackgroundColor="@color/surface_white">
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                            android:orientation="vertical" android:padding="16dp">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="🔍" android:textSize="28sp"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Safe Search" android:textColor="@color/text_primary"
+                                android:textSize="14sp" android:textStyle="bold" android:layout_marginTop="10dp"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Secure Browsing" android:textColor="@color/text_secondary"
+                                android:textSize="12sp"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView android:id="@+id/cardAppManager"
+                        android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_columnWeight="1" android:layout_margin="6dp"
+                        app:cardCornerRadius="20dp" app:cardElevation="2dp"
+                        app:cardBackgroundColor="@color/surface_white">
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                            android:orientation="vertical" android:padding="16dp">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="🕵️" android:textSize="28sp"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Real / Fake" android:textColor="@color/text_primary"
+                                android:textSize="14sp" android:textStyle="bold" android:layout_marginTop="10dp"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Image &amp; News AI" android:textColor="@color/text_secondary"
+                                android:textSize="12sp"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView android:id="@+id/cardSpaceCleanup"
+                        android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_columnWeight="1" android:layout_margin="6dp"
+                        app:cardCornerRadius="20dp" app:cardElevation="2dp"
+                        app:cardBackgroundColor="@color/surface_white">
+                        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                            android:orientation="vertical" android:padding="16dp">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="🤖" android:textSize="28sp"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="AI Assistant" android:textColor="@color/text_primary"
+                                android:textSize="14sp" android:textStyle="bold" android:layout_marginTop="10dp"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Ask Anything" android:textColor="@color/text_secondary"
+                                android:textSize="12sp"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </GridLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <!-- ══ TURBO OVERLAY ══ -->
+    <LinearLayout android:id="@+id/turboOverlay"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="vertical" android:visibility="gone">
+
+        <!-- Turbo top bar -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:background="#E8000000" android:orientation="vertical"
+            android:paddingStart="20dp" android:paddingEnd="20dp"
+            android:paddingTop="52dp" android:paddingBottom="16dp">
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:gravity="center_vertical">
+
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="🕷 CyberRaksha" android:textColor="#B400FF"
+                        android:textSize="20sp" android:textStyle="bold" android:fontFamily="monospace"/>
+                    <TextView android:id="@+id/tvTurboTagline"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="TURBO MODE ACTIVE" android:textColor="#00FF94"
+                        android:textSize="11sp" android:letterSpacing="0.15" android:fontFamily="monospace"/>
+                </LinearLayout>
+
+                <TextView android:id="@+id/btnExitTurbo"
+                    android:layout_width="wrap_content" android:layout_height="36dp"
+                    android:text="EXIT TURBO" android:textColor="#FFFFFF"
+                    android:textSize="11sp" android:textStyle="bold"
+                    android:gravity="center" android:paddingStart="16dp" android:paddingEnd="16dp"
+                    android:background="@drawable/bg_glass_toggle"
+                    android:clickable="true" android:focusable="true"/>
+            </LinearLayout>
+
+            <!-- Console -->
+            <TextView android:id="@+id/tvConsole"
+                android:layout_width="match_parent" android:layout_height="60dp"
+                android:fontFamily="monospace" android:textColor="#00FF94"
+                android:textSize="10sp" android:gravity="bottom"
+                android:layout_marginTop="12dp"/>
+
+            <!-- Threat meter removed as requested -->
+
+        </LinearLayout>
+
+        <!-- System Status Panel removed as requested -->
+
+        <!-- 4 Turbo tools — fill remaining space -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="0dp"
+            android:layout_weight="1" android:orientation="vertical" android:padding="16dp">
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="0dp"
+                android:layout_weight="1" android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+                <!-- Threat Radar -->
+                <FrameLayout android:id="@+id/turboCardRadar"
+                    android:layout_width="0dp" android:layout_height="match_parent"
+                    android:layout_weight="1" android:layout_marginEnd="8dp"
+                    android:background="@drawable/bg_glass_card"
+                    android:clickable="true" android:focusable="true">
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                        android:orientation="vertical" android:gravity="center" android:padding="12dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="📡" android:textSize="36sp" android:layout_marginBottom="8dp"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="Threat Radar" android:textColor="#FFFFFF"
+                            android:textSize="13sp" android:textStyle="bold" android:gravity="center"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="● Scanning" android:textColor="#00FF94"
+                            android:textSize="11sp" android:gravity="center" android:layout_marginTop="4dp"/>
+                    </LinearLayout>
+                    <View android:layout_width="match_parent" android:layout_height="2dp"
+                        android:layout_gravity="top" android:background="#CC00FF94"/>
+                </FrameLayout>
+
+                <!-- Live Fraud Detection -->
+                <FrameLayout android:id="@+id/turboCardFraud"
+                    android:layout_width="0dp" android:layout_height="match_parent"
+                    android:layout_weight="1" android:background="@drawable/bg_glass_card"
+                    android:clickable="true" android:focusable="true">
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                        android:orientation="vertical" android:gravity="center" android:padding="12dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="🎯" android:textSize="36sp" android:layout_marginBottom="8dp"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="Live Fraud Detection" android:textColor="#FFFFFF"
+                            android:textSize="13sp" android:textStyle="bold" android:gravity="center"/>
+                        <TextView android:id="@+id/tvGlassCommunityStatus"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="Active" android:textColor="#00BFFF"
+                            android:textSize="11sp" android:gravity="center" android:layout_marginTop="4dp"/>
+                    </LinearLayout>
+                    <View android:layout_width="match_parent" android:layout_height="2dp"
+                        android:layout_gravity="top" android:background="#CC00BFFF"/>
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="0dp"
+                android:layout_weight="1" android:orientation="horizontal">
+
+                <!-- Guardian Monitor -->
+                <FrameLayout android:id="@+id/turboCardGuardian"
+                    android:layout_width="0dp" android:layout_height="match_parent"
+                    android:layout_weight="1" android:layout_marginEnd="8dp"
+                    android:background="@drawable/bg_glass_card"
+                    android:clickable="true" android:focusable="true">
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                        android:orientation="vertical" android:gravity="center" android:padding="12dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="🛡️" android:textSize="36sp" android:layout_marginBottom="8dp"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="Guardian Monitor" android:textColor="#FFFFFF"
+                            android:textSize="13sp" android:textStyle="bold" android:gravity="center"/>
+                        <TextView android:id="@+id/tvGlassGuardianStatus"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="● Watching" android:textColor="#B400FF"
+                            android:textSize="11sp" android:gravity="center" android:layout_marginTop="4dp"/>
+                    </LinearLayout>
+                    <View android:layout_width="match_parent" android:layout_height="2dp"
+                        android:layout_gravity="top" android:background="#CCB400FF"/>
+                </FrameLayout>
+
+                <!-- Emergency Lockdown -->
+                <FrameLayout android:id="@+id/turboCardLockdown"
+                    android:layout_width="0dp" android:layout_height="match_parent"
+                    android:layout_weight="1" android:background="@drawable/bg_glass_card"
+                    android:clickable="true" android:focusable="true">
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                        android:orientation="vertical" android:gravity="center" android:padding="12dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="🔴" android:textSize="36sp" android:layout_marginBottom="8dp"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="Emergency Lockdown" android:textColor="#FFFFFF"
+                            android:textSize="13sp" android:textStyle="bold" android:gravity="center"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="Tap to activate" android:textColor="#FF005C"
+                            android:textSize="11sp" android:gravity="center" android:layout_marginTop="4dp"/>
+                    </LinearLayout>
+                    <View android:layout_width="match_parent" android:layout_height="2dp"
+                        android:layout_gravity="top" android:background="#CCFF005C"/>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Bottom chips -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:background="#AA000000" android:paddingStart="16dp" android:paddingEnd="16dp"
+            android:paddingTop="8dp" android:paddingBottom="8dp" android:orientation="horizontal">
+            <TextView android:id="@+id/chipSafe"
+                android:layout_width="0dp" android:layout_height="30dp" android:layout_weight="1"
+                android:gravity="center" android:text="● SAFE" android:textColor="#00FF94"
+                android:textSize="10sp" android:textStyle="bold"
+                android:background="@drawable/bg_chip_safe" android:layout_marginEnd="6dp"/>
+            <TextView android:id="@+id/chipSuspicious"
+                android:layout_width="0dp" android:layout_height="30dp" android:layout_weight="1"
+                android:gravity="center" android:text="● SUSPICIOUS" android:textColor="#66FFD600"
+                android:textSize="10sp" android:textStyle="bold"
+                android:background="@drawable/bg_chip_sus" android:layout_marginEnd="6dp"/>
+            <TextView android:id="@+id/chipHighRisk"
+                android:layout_width="0dp" android:layout_height="30dp" android:layout_weight="1"
+                android:gravity="center" android:text="● HIGH RISK" android:textColor="#44FF005C"
+                android:textSize="10sp" android:textStyle="bold"
+                android:background="@drawable/bg_chip_danger"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- ══ BOTTOM NAV ══ -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_gravity="bottom" android:background="@color/surface_white"
+        app:elevation="8dp" app:itemIconTint="@color/primaryColor"
+        app:itemTextColor="@color/text_primary" app:menu="@menu/bottom_nav_menu_v3"/>
+
+    <!-- ══ DYNAMIC CONTROL BAR — hidden, replaced by DynamicBarService overlay ══
+         IDs kept so MainActivity.java compiles. Real island = WindowManager overlay. -->
+    <LinearLayout android:id="@+id/dynamicBar"
+        android:layout_width="0dp" android:layout_height="0dp"
+        android:visibility="gone" android:orientation="horizontal">
+
+        <TextView android:id="@+id/dynBtnNormal"
+            android:layout_width="0dp" android:layout_height="0dp"
+            android:visibility="gone"/>
+
+        <TextView android:id="@+id/dynBtnTurbo"
+            android:layout_width="0dp" android:layout_height="0dp"
+            android:visibility="gone"/>
+
+        <View android:id="@+id/dynStatusDot"
+            android:layout_width="0dp" android:layout_height="0dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</FrameLayout>

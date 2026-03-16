@@ -1,0 +1,406 @@
+[
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout_item_onboarding_card.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout/item_onboarding_card.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout_activity_abuse_check.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout/activity_abuse_check.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_emergency_hero.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_emergency_hero.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_mode_selected.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_mode_selected.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/menu_bottom_nav_menu_v3.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/menu/bottom_nav_menu_v3.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout_item_network_detail.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout/item_network_detail.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_bar_turbo.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_bar_turbo.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout_activity_splash.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_glass_header.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_glass_header.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_bubble_bot.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_bubble_bot.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_mode_turbo_inactive.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_mode_turbo_inactive.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout_activity_battery_optimizer.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout/activity_battery_optimizer.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_splash_anim.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/splash_anim.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_chip_tool.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_chip_tool.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_turbo_toggle.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_turbo_toggle.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout_activity_scan_list.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout/activity_scan_list.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout_activity_main.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout_activity_ai_news_selection.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout/activity_ai_news_selection.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_dashboard_header.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_dashboard_header.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_chip_sus.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_chip_sus.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/anim_layout_animation_fall_down.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/anim/layout_animation_fall_down.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout_activity_true_news.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout/activity_true_news.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout_activity_junk_cleaner.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout/activity_junk_cleaner.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/xml_backup_rules.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_music_art.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_music_art.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_chip_safe.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_chip_safe.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout_activity_panic_mode.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout/activity_panic_mode.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/xml_accessibility_service_config.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/xml/accessibility_service_config.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_chip_danger.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_chip_danger.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout_activity_intelligence.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout/activity_intelligence.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_btn_warn.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_btn_warn.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_music_btn.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_music_btn.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout_activity_onboarding.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout/activity_onboarding.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout_activity_network_security.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout/activity_network_security.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/anim_item_animation.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/anim/item_animation.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout_activity_chatbot.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout/activity_chatbot.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_btn_neutral.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_btn_neutral.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout_item_app.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout/item_app.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_bubble_user.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_bubble_user.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_dot_safe.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/dot_safe.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout_activity_privacy_audit.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout/activity_privacy_audit.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/raw_spider_turbo.mp4.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/raw/spider_turbo.mp4"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_dot_danger.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/dot_danger.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_message_user.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_message_user.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_call_circle.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_call_circle.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_btn_danger.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_btn_danger.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_mode_turbo_active.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_mode_turbo_active.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_message_bot.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_message_bot.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_mode_normal_inactive.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_mode_normal_inactive.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/raw_cyber_security.json.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/raw/cyber_security.json"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout_activity_spy_detection.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout/activity_spy_detection.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_dynamic_bar.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_dynamic_bar.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_gradient_safe.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_gradient_safe.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_normal_pill.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_normal_pill.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout_activity_bloatware.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout/activity_bloatware.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_progress_circle_bg.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/progress_circle_bg.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_turbo_tool.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_turbo_tool.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_island_panel.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_island_panel.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout_activity_news_detection.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout/activity_news_detection.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_intel_card.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_intel_card.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_glass_card.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_glass_card.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout_caller_id_overlay.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout/caller_id_overlay.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout_activity_safe_search.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout/activity_safe_search.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/xml_data_extraction_rules.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_glass_toggle.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_glass_toggle.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout_item_bloatware.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout/item_bloatware.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout_activity_data_usage.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout/activity_data_usage.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_glass_selected.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_glass_selected.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout_overlay_dynamic_bar.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout/overlay_dynamic_bar.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout_item_message_user.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout/item_message_user.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout_item_message_bot.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout/item_message_bot.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_tool_card.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_tool_card.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_progress_circle.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/progress_circle.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout_activity_v2_security_engine.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout/activity_v2_security_engine.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_turbo_active.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_turbo_active.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_mode_normal_active.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_mode_normal_active.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_turbo_pill.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_turbo_pill.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout_dialog_threat_alert.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout/dialog_threat_alert.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/layout-sw600dp_dialog_threat_alert.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/layout-sw600dp/dialog_threat_alert.xml"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/raw_scan.json.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/raw/scan.json"
+    },
+    {
+        "merged": "com.cyberraksha.guardian.app-release-34:/drawable_bg_badge_rounded.xml.flat",
+        "source": "com.cyberraksha.guardian.app-main-35:/drawable/bg_badge_rounded.xml"
+    }
+]

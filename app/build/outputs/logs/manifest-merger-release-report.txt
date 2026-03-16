@@ -1,0 +1,611 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:2:1-134:12
+INJECTED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:2:1-134:12
+INJECTED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:2:1-134:12
+INJECTED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:2:1-134:12
+MERGED from [androidx.core:core-splashscreen:1.0.1] C:\Users\hp\.gradle\caches\9.3.1\transforms\6de70784b51596b150dbbbbc0281a65e\workspace\transformed\core-splashscreen-1.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f4fd315da94200c1bb0d550d6eb84fc0\workspace\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\420e5eefd5c62a62017ae25505ea2474\workspace\transformed\constraintlayout-2.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.airbnb.android:lottie:6.6.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\2840c2b4f6184d92a5de72e616639fc1\workspace\transformed\lottie-6.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\b9e353f31e5ba418d56fad8a38caf31c\workspace\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\79fa731e13a98443a793d9ec881d7c67\workspace\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\735378abf63773d2353095520c192a64\workspace\transformed\recyclerview-1.3.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\hp\.gradle\caches\9.3.1\transforms\1bf7ea5492e7a2e1739f3ae7910e3e7a\workspace\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\hp\.gradle\caches\9.3.1\transforms\60ade453df8bffd877ed2905af4e68fa\workspace\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\hp\.gradle\caches\9.3.1\transforms\325604f6b57deb785f67b17989d8f8c0\workspace\transformed\activity-1.9.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\6ad28bc895012a3a59503bc04a64bf50\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\382624a5902b38f7cde01b132f34046f\workspace\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\hp\.gradle\caches\9.3.1\transforms\9a77d0e0334ca803f6fdac0940525811\workspace\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\6386a7e0369fadfb680fe4e970e07229\workspace\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\3329c7e782e2084b58154bfb7ebb9309\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\e512fb524ddc4a5860618e0ac5f0c90b\workspace\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\b954c8f86b30425387c7b6e554ee8bd6\workspace\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\a0cae89aaa92edc818c1114b9a6e1ef8\workspace\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\e21f71bd93b2c1521575fd809755f5d8\workspace\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\0796c4b64ffc072ea4f31cde5a25b910\workspace\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\54c0ae16016881da2843f0ae4870abf4\workspace\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\1a73ac53c7e4260e7e5f292dd65ff831\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\580368818990506542f6c73f3a4a24e5\workspace\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\d54678350b84d1e06af94da82b39f87a\workspace\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\44ec5bd6adaaec89ec0947e566004501\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\772c59c57b58478ca5b3d637566aeb19\workspace\transformed\core-ktx-1.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\hp\.gradle\caches\9.3.1\transforms\6a15f3fc53a005dc51b115989d410b52\workspace\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f0fc7e413c36f01e89affc5f825d9a28\workspace\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\c5fbc45e61e56c7a4bf7f7de66caeece\workspace\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\bdb14afc447a94f55069c0c8af6e5d47\workspace\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\cc0a3a0cc2fdc8665a6aa00bed27ac05\workspace\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\e2ef29f6ac6e91a43119f4b42fa215b1\workspace\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f6116604e3fad905c957424d5f18fd62\workspace\transformed\core-1.13.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f65e7aa6d777d83f88aba4da78bc6570\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hp\.gradle\caches\9.3.1\transforms\6e24287ce36c5790ca31d6d91357310b\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\0d76c1e65008de1461bf57495ced31da\workspace\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\caacfd21725b51b46ac54f8c690e8d04\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hp\.gradle\caches\9.3.1\transforms\4049c59f3e65adf365a9f827ffbc60f5\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\602fb5a0d1ddde8cfb4f63130f5cee6c\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\cdbc7dd793076920445aa774fff5f611\workspace\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\875ecc867345a09f7eacdd7da5195ba7\workspace\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\e4faffb2c3cf34b26ff38bcaf72fdc9f\workspace\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f6c01bd218852c317466f89a0d560586\workspace\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:6:5-78
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:7:5-78
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:9:5-75
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:9:22-73
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:10:22-74
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:11:5-118
+	tools:ignore
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:11:75-116
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:11:22-74
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:12:5-77
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:12:22-75
+uses-permission#android.permission.PACKAGE_USAGE_STATS
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:13:5-113
+	tools:ignore
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:13:76-111
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:13:22-75
+uses-permission#android.permission.READ_SMS
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:14:5-66
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:14:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:15:5-69
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:15:22-67
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:16:5-71
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:16:22-69
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:17:5-76
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:17:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_SPECIAL_USE
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:18:5-88
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:18:22-86
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:19:5-74
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:19:22-72
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:20:5-71
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:20:22-69
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:21:5-65
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:21:22-63
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:22:22-78
+uses-permission#android.permission.REQUEST_DELETE_PACKAGES
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:23:22-79
+application
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:25:5-133:19
+INJECTED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:25:5-133:19
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f4fd315da94200c1bb0d550d6eb84fc0\workspace\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f4fd315da94200c1bb0d550d6eb84fc0\workspace\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\420e5eefd5c62a62017ae25505ea2474\workspace\transformed\constraintlayout-2.2.0\AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\420e5eefd5c62a62017ae25505ea2474\workspace\transformed\constraintlayout-2.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.airbnb.android:lottie:6.6.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\2840c2b4f6184d92a5de72e616639fc1\workspace\transformed\lottie-6.6.0\AndroidManifest.xml:7:5-20
+MERGED from [com.airbnb.android:lottie:6.6.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\2840c2b4f6184d92a5de72e616639fc1\workspace\transformed\lottie-6.6.0\AndroidManifest.xml:7:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\3329c7e782e2084b58154bfb7ebb9309\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\3329c7e782e2084b58154bfb7ebb9309\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\1a73ac53c7e4260e7e5f292dd65ff831\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\1a73ac53c7e4260e7e5f292dd65ff831\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f6116604e3fad905c957424d5f18fd62\workspace\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f6116604e3fad905c957424d5f18fd62\workspace\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hp\.gradle\caches\9.3.1\transforms\6e24287ce36c5790ca31d6d91357310b\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hp\.gradle\caches\9.3.1\transforms\6e24287ce36c5790ca31d6d91357310b\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hp\.gradle\caches\9.3.1\transforms\4049c59f3e65adf365a9f827ffbc60f5\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hp\.gradle\caches\9.3.1\transforms\4049c59f3e65adf365a9f827ffbc60f5\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f6116604e3fad905c957424d5f18fd62\workspace\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:32:9-35
+	android:label
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:30:9-36
+	android:fullBackupContent
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:28:9-54
+	android:roundIcon
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:31:9-54
+	android:icon
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:29:9-43
+	android:allowBackup
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:26:9-35
+	android:theme
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:33:9-49
+	android:dataExtractionRules
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:27:9-65
+activity#com.cyberraksha.guardian.SplashActivity
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:35:9-41:20
+	android:exported
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:35:50-73
+	android:theme
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:36:13-52
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:35:19-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:37:13-40:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:38:17-68
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:39:17-76
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:39:27-74
+activity#com.cyberraksha.guardian.OnboardingActivity
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:43:9-80
+	android:exported
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:43:54-78
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:43:19-53
+activity#com.cyberraksha.guardian.MainActivity
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:44:9-74
+	android:exported
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:44:48-72
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:44:19-47
+activity#com.cyberraksha.guardian.IntelligenceActivity
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:45:9-46:93
+	android:parentActivityName
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:46:49-91
+	android:label
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:46:13-48
+	android:exported
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:45:56-80
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:45:19-55
+activity#com.cyberraksha.guardian.V2SecurityEngineActivity
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:47:9-48:83
+	android:parentActivityName
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:48:39-81
+	android:label
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:48:13-38
+	android:exported
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:47:60-84
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:47:19-59
+activity#com.cyberraksha.guardian.SpyDetectionActivity
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:49:9-50:57
+	android:parentActivityName
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:50:13-55
+	android:exported
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:49:56-80
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:49:19-55
+activity#com.cyberraksha.guardian.AbuseCheckActivity
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:51:9-52:57
+	android:parentActivityName
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:52:13-55
+	android:exported
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:51:54-78
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:51:19-53
+activity#com.cyberraksha.guardian.ChatbotActivity
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:53:9-55:57
+	android:parentActivityName
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:54:13-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:55:13-55
+	android:exported
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:53:51-75
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:53:19-50
+activity#com.cyberraksha.guardian.TrueNewsActivity
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:56:9-58:57
+	android:parentActivityName
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:57:13-55
+	android:windowSoftInputMode
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:58:13-55
+	android:exported
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:56:52-76
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:56:19-51
+activity#com.cyberraksha.guardian.AiNewsSelectionActivity
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:59:9-60:57
+	android:parentActivityName
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:60:13-55
+	android:exported
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:59:59-83
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:59:19-58
+activity#com.cyberraksha.guardian.NewsDetectionActivity
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:61:9-63:57
+	android:parentActivityName
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:62:13-66
+	android:windowSoftInputMode
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:63:13-55
+	android:exported
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:61:57-81
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:61:19-56
+activity#com.cyberraksha.guardian.ScanListActivity
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:64:9-65:57
+	android:parentActivityName
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:65:13-55
+	android:exported
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:64:52-76
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:64:19-51
+activity#com.cyberraksha.guardian.NetworkSecurityActivity
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:66:9-67:57
+	android:parentActivityName
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:67:13-55
+	android:exported
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:66:59-83
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:66:19-58
+activity#com.cyberraksha.guardian.SafeSearchActivity
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:68:9-69:57
+	android:parentActivityName
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:69:13-55
+	android:exported
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:68:54-78
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:68:19-53
+activity#com.cyberraksha.guardian.PanicModeActivity
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:70:9-72:57
+	android:parentActivityName
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:72:13-55
+	android:label
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:71:13-45
+	android:exported
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:70:53-77
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:70:19-52
+activity#com.cyberraksha.guardian.BatteryOptimizerActivity
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:73:9-74:57
+	android:parentActivityName
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:74:13-55
+	android:exported
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:73:60-84
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:73:19-59
+activity#com.cyberraksha.guardian.DataUsageActivity
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:75:9-76:57
+	android:parentActivityName
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:76:13-55
+	android:exported
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:75:53-77
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:75:19-52
+activity#com.cyberraksha.guardian.JunkCleanerActivity
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:77:9-78:57
+	android:parentActivityName
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:78:13-55
+	android:exported
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:77:55-79
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:77:19-54
+activity#com.cyberraksha.guardian.PrivacyAuditActivity
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:79:9-80:57
+	android:parentActivityName
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:80:13-55
+	android:exported
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:79:56-80
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:79:19-55
+service#com.cyberraksha.guardian.SafeSearchService
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:82:9-90:19
+	android:exported
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:84:13-37
+	android:permission
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:83:13-79
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:82:18-51
+intent-filter#action:name:android.accessibilityservice.AccessibilityService
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:85:13-87:29
+action#android.accessibilityservice.AccessibilityService
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:86:17-91
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:86:25-89
+meta-data#android.accessibilityservice
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:88:13-89:71
+	android:resource
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:89:17-69
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:88:24-67
+service#com.cyberraksha.guardian.DynamicBarService
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:93:9-99:19
+	android:exported
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:96:13-37
+	android:foregroundServiceType
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:95:13-55
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:94:13-46
+property#android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:97:13-98:105
+	android:value
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:98:17-103
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:97:23-82
+service#com.cyberraksha.guardian.CallDetectionService
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:101:9-105:19
+	android:exported
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:102:56-80
+	android:foregroundServiceType
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:102:13-55
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:101:18-54
+service#com.cyberraksha.guardian.IslandNotificationService
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:111:9-119:19
+	android:label
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:113:13-61
+	android:exported
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:115:13-37
+	android:permission
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:114:13-87
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:112:13-54
+intent-filter#action:name:android.service.notification.NotificationListenerService
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:116:13-118:29
+action#android.service.notification.NotificationListenerService
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:117:17-99
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:117:25-96
+receiver#com.cyberraksha.guardian.AppInstallReceiver
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:124:9-131:20
+	android:exported
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:126:13-36
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:125:13-47
+intent-filter#action:name:android.intent.action.PACKAGE_ADDED+data:scheme:package
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:127:13-130:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:128:17-77
+	android:name
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:128:25-75
+data
+ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:129:17-49
+	android:scheme
+		ADDED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:129:23-47
+uses-sdk
+INJECTED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml
+MERGED from [androidx.core:core-splashscreen:1.0.1] C:\Users\hp\.gradle\caches\9.3.1\transforms\6de70784b51596b150dbbbbc0281a65e\workspace\transformed\core-splashscreen-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-splashscreen:1.0.1] C:\Users\hp\.gradle\caches\9.3.1\transforms\6de70784b51596b150dbbbbc0281a65e\workspace\transformed\core-splashscreen-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f4fd315da94200c1bb0d550d6eb84fc0\workspace\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f4fd315da94200c1bb0d550d6eb84fc0\workspace\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\420e5eefd5c62a62017ae25505ea2474\workspace\transformed\constraintlayout-2.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\420e5eefd5c62a62017ae25505ea2474\workspace\transformed\constraintlayout-2.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.airbnb.android:lottie:6.6.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\2840c2b4f6184d92a5de72e616639fc1\workspace\transformed\lottie-6.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.airbnb.android:lottie:6.6.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\2840c2b4f6184d92a5de72e616639fc1\workspace\transformed\lottie-6.6.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\b9e353f31e5ba418d56fad8a38caf31c\workspace\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\b9e353f31e5ba418d56fad8a38caf31c\workspace\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\79fa731e13a98443a793d9ec881d7c67\workspace\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\79fa731e13a98443a793d9ec881d7c67\workspace\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\735378abf63773d2353095520c192a64\workspace\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\735378abf63773d2353095520c192a64\workspace\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\hp\.gradle\caches\9.3.1\transforms\1bf7ea5492e7a2e1739f3ae7910e3e7a\workspace\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\hp\.gradle\caches\9.3.1\transforms\1bf7ea5492e7a2e1739f3ae7910e3e7a\workspace\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\hp\.gradle\caches\9.3.1\transforms\60ade453df8bffd877ed2905af4e68fa\workspace\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\hp\.gradle\caches\9.3.1\transforms\60ade453df8bffd877ed2905af4e68fa\workspace\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\hp\.gradle\caches\9.3.1\transforms\325604f6b57deb785f67b17989d8f8c0\workspace\transformed\activity-1.9.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\hp\.gradle\caches\9.3.1\transforms\325604f6b57deb785f67b17989d8f8c0\workspace\transformed\activity-1.9.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\6ad28bc895012a3a59503bc04a64bf50\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\6ad28bc895012a3a59503bc04a64bf50\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\382624a5902b38f7cde01b132f34046f\workspace\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\382624a5902b38f7cde01b132f34046f\workspace\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\hp\.gradle\caches\9.3.1\transforms\9a77d0e0334ca803f6fdac0940525811\workspace\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\hp\.gradle\caches\9.3.1\transforms\9a77d0e0334ca803f6fdac0940525811\workspace\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\6386a7e0369fadfb680fe4e970e07229\workspace\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\6386a7e0369fadfb680fe4e970e07229\workspace\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\3329c7e782e2084b58154bfb7ebb9309\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\3329c7e782e2084b58154bfb7ebb9309\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\e512fb524ddc4a5860618e0ac5f0c90b\workspace\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\e512fb524ddc4a5860618e0ac5f0c90b\workspace\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\b954c8f86b30425387c7b6e554ee8bd6\workspace\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\b954c8f86b30425387c7b6e554ee8bd6\workspace\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\a0cae89aaa92edc818c1114b9a6e1ef8\workspace\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\a0cae89aaa92edc818c1114b9a6e1ef8\workspace\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\e21f71bd93b2c1521575fd809755f5d8\workspace\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\e21f71bd93b2c1521575fd809755f5d8\workspace\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\0796c4b64ffc072ea4f31cde5a25b910\workspace\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\0796c4b64ffc072ea4f31cde5a25b910\workspace\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\54c0ae16016881da2843f0ae4870abf4\workspace\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\54c0ae16016881da2843f0ae4870abf4\workspace\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\1a73ac53c7e4260e7e5f292dd65ff831\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\1a73ac53c7e4260e7e5f292dd65ff831\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\580368818990506542f6c73f3a4a24e5\workspace\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\580368818990506542f6c73f3a4a24e5\workspace\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\d54678350b84d1e06af94da82b39f87a\workspace\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\d54678350b84d1e06af94da82b39f87a\workspace\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\44ec5bd6adaaec89ec0947e566004501\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\44ec5bd6adaaec89ec0947e566004501\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\772c59c57b58478ca5b3d637566aeb19\workspace\transformed\core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\772c59c57b58478ca5b3d637566aeb19\workspace\transformed\core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\hp\.gradle\caches\9.3.1\transforms\6a15f3fc53a005dc51b115989d410b52\workspace\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\hp\.gradle\caches\9.3.1\transforms\6a15f3fc53a005dc51b115989d410b52\workspace\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f0fc7e413c36f01e89affc5f825d9a28\workspace\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f0fc7e413c36f01e89affc5f825d9a28\workspace\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\c5fbc45e61e56c7a4bf7f7de66caeece\workspace\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\c5fbc45e61e56c7a4bf7f7de66caeece\workspace\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\bdb14afc447a94f55069c0c8af6e5d47\workspace\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\bdb14afc447a94f55069c0c8af6e5d47\workspace\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\cc0a3a0cc2fdc8665a6aa00bed27ac05\workspace\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\cc0a3a0cc2fdc8665a6aa00bed27ac05\workspace\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\e2ef29f6ac6e91a43119f4b42fa215b1\workspace\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\e2ef29f6ac6e91a43119f4b42fa215b1\workspace\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f6116604e3fad905c957424d5f18fd62\workspace\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f6116604e3fad905c957424d5f18fd62\workspace\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f65e7aa6d777d83f88aba4da78bc6570\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f65e7aa6d777d83f88aba4da78bc6570\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hp\.gradle\caches\9.3.1\transforms\6e24287ce36c5790ca31d6d91357310b\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hp\.gradle\caches\9.3.1\transforms\6e24287ce36c5790ca31d6d91357310b\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\0d76c1e65008de1461bf57495ced31da\workspace\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\0d76c1e65008de1461bf57495ced31da\workspace\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\caacfd21725b51b46ac54f8c690e8d04\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\caacfd21725b51b46ac54f8c690e8d04\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hp\.gradle\caches\9.3.1\transforms\4049c59f3e65adf365a9f827ffbc60f5\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hp\.gradle\caches\9.3.1\transforms\4049c59f3e65adf365a9f827ffbc60f5\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\602fb5a0d1ddde8cfb4f63130f5cee6c\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\602fb5a0d1ddde8cfb4f63130f5cee6c\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\cdbc7dd793076920445aa774fff5f611\workspace\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\cdbc7dd793076920445aa774fff5f611\workspace\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\875ecc867345a09f7eacdd7da5195ba7\workspace\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\875ecc867345a09f7eacdd7da5195ba7\workspace\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\e4faffb2c3cf34b26ff38bcaf72fdc9f\workspace\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\e4faffb2c3cf34b26ff38bcaf72fdc9f\workspace\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f6c01bd218852c317466f89a0d560586\workspace\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f6c01bd218852c317466f89a0d560586\workspace\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\3329c7e782e2084b58154bfb7ebb9309\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\1a73ac53c7e4260e7e5f292dd65ff831\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\1a73ac53c7e4260e7e5f292dd65ff831\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hp\.gradle\caches\9.3.1\transforms\6e24287ce36c5790ca31d6d91357310b\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hp\.gradle\caches\9.3.1\transforms\6e24287ce36c5790ca31d6d91357310b\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\3329c7e782e2084b58154bfb7ebb9309\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\3329c7e782e2084b58154bfb7ebb9309\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\3329c7e782e2084b58154bfb7ebb9309\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\3329c7e782e2084b58154bfb7ebb9309\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\3329c7e782e2084b58154bfb7ebb9309\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\3329c7e782e2084b58154bfb7ebb9309\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\3329c7e782e2084b58154bfb7ebb9309\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\1a73ac53c7e4260e7e5f292dd65ff831\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\1a73ac53c7e4260e7e5f292dd65ff831\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\1a73ac53c7e4260e7e5f292dd65ff831\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f6116604e3fad905c957424d5f18fd62\workspace\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f6116604e3fad905c957424d5f18fd62\workspace\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f6116604e3fad905c957424d5f18fd62\workspace\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+permission#com.cyberraksha.guardian.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f6116604e3fad905c957424d5f18fd62\workspace\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f6116604e3fad905c957424d5f18fd62\workspace\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f6116604e3fad905c957424d5f18fd62\workspace\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f6116604e3fad905c957424d5f18fd62\workspace\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f6116604e3fad905c957424d5f18fd62\workspace\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+uses-permission#com.cyberraksha.guardian.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f6116604e3fad905c957424d5f18fd62\workspace\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f6116604e3fad905c957424d5f18fd62\workspace\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92

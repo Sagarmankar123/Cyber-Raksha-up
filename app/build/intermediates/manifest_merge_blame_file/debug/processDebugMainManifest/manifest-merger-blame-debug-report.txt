@@ -1,0 +1,442 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cyberraksha.guardian"
+4    android:versionCode="3"
+5    android:versionName="3.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:6:5-78
+12-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:7:5-78
+13-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:8:5-80
+14-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:9:5-75
+15-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:9:22-73
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:10:5-76
+16-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:10:22-74
+17    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+17-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:11:5-118
+17-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:11:22-74
+18    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+18-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:12:5-77
+18-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:12:22-75
+19    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+19-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:13:5-113
+19-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:13:22-75
+20    <uses-permission android:name="android.permission.READ_SMS" />
+20-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:14:5-66
+20-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:14:22-64
+21    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+21-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:15:5-69
+21-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:15:22-67
+22    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+22-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:16:5-71
+22-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:16:22-69
+23    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+23-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:17:5-76
+23-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:17:22-74
+24    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+24-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:18:5-88
+24-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:18:22-86
+25    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+25-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:19:5-74
+25-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:19:22-72
+26    <uses-permission android:name="android.permission.READ_CONTACTS" />
+26-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:20:5-71
+26-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:20:22-69
+27    <uses-permission android:name="android.permission.VIBRATE" />
+27-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:21:5-65
+27-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:21:22-63
+28    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+28-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:22:5-80
+28-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:22:22-78
+29    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+29-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:23:5-81
+29-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:23:22-79
+30
+31    <permission
+31-->[androidx.core:core:1.13.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f6116604e3fad905c957424d5f18fd62\workspace\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+32        android:name="com.cyberraksha.guardian.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+32-->[androidx.core:core:1.13.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f6116604e3fad905c957424d5f18fd62\workspace\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+33        android:protectionLevel="signature" />
+33-->[androidx.core:core:1.13.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f6116604e3fad905c957424d5f18fd62\workspace\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+34
+35    <uses-permission android:name="com.cyberraksha.guardian.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+35-->[androidx.core:core:1.13.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f6116604e3fad905c957424d5f18fd62\workspace\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+35-->[androidx.core:core:1.13.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f6116604e3fad905c957424d5f18fd62\workspace\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+36
+37    <application
+37-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:25:5-133:19
+38        android:allowBackup="true"
+38-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:26:9-35
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.13.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\f6116604e3fad905c957424d5f18fd62\workspace\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+40        android:dataExtractionRules="@xml/data_extraction_rules"
+40-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:27:9-65
+41        android:debuggable="true"
+42        android:extractNativeLibs="false"
+43        android:fullBackupContent="@xml/backup_rules"
+43-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:28:9-54
+44        android:icon="@mipmap/ic_launcher"
+44-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:29:9-43
+45        android:label="CyberRaksha"
+45-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:30:9-36
+46        android:roundIcon="@mipmap/ic_launcher_round"
+46-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:31:9-54
+47        android:supportsRtl="true"
+47-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:32:9-35
+48        android:testOnly="true"
+49        android:theme="@style/Theme.CyberRaksha" >
+49-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:33:9-49
+50        <activity
+50-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:35:9-41:20
+51            android:name="com.cyberraksha.guardian.SplashActivity"
+51-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:35:19-49
+52            android:exported="true"
+52-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:35:50-73
+53            android:theme="@style/Theme.App.Splash" >
+53-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:36:13-52
+54            <intent-filter>
+54-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:37:13-40:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:38:17-68
+55-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:38:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:39:17-76
+57-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:39:27-74
+58            </intent-filter>
+59        </activity>
+60        <activity
+60-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:43:9-80
+61            android:name="com.cyberraksha.guardian.OnboardingActivity"
+61-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:43:19-53
+62            android:exported="false" />
+62-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:43:54-78
+63        <activity
+63-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:44:9-74
+64            android:name="com.cyberraksha.guardian.MainActivity"
+64-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:44:19-47
+65            android:exported="false" />
+65-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:44:48-72
+66        <activity
+66-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:45:9-46:93
+67            android:name="com.cyberraksha.guardian.IntelligenceActivity"
+67-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:45:19-55
+68            android:exported="false"
+68-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:45:56-80
+69            android:label="Intelligence Engine"
+69-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:46:13-48
+70            android:parentActivityName="com.cyberraksha.guardian.MainActivity" />
+70-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:46:49-91
+71        <activity
+71-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:47:9-48:83
+72            android:name="com.cyberraksha.guardian.V2SecurityEngineActivity"
+72-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:47:19-59
+73            android:exported="false"
+73-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:47:60-84
+74            android:label="V2 Engine"
+74-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:48:13-38
+75            android:parentActivityName="com.cyberraksha.guardian.MainActivity" />
+75-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:48:39-81
+76        <activity
+76-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:49:9-50:57
+77            android:name="com.cyberraksha.guardian.SpyDetectionActivity"
+77-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:49:19-55
+78            android:exported="false"
+78-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:49:56-80
+79            android:parentActivityName="com.cyberraksha.guardian.MainActivity" />
+79-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:50:13-55
+80        <activity
+80-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:51:9-52:57
+81            android:name="com.cyberraksha.guardian.AbuseCheckActivity"
+81-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:51:19-53
+82            android:exported="false"
+82-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:51:54-78
+83            android:parentActivityName="com.cyberraksha.guardian.MainActivity" />
+83-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:52:13-55
+84        <activity
+84-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:53:9-55:57
+85            android:name="com.cyberraksha.guardian.ChatbotActivity"
+85-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:53:19-50
+86            android:exported="false"
+86-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:53:51-75
+87            android:parentActivityName="com.cyberraksha.guardian.MainActivity"
+87-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:54:13-55
+88            android:windowSoftInputMode="adjustResize" />
+88-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:55:13-55
+89        <activity
+89-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:56:9-58:57
+90            android:name="com.cyberraksha.guardian.TrueNewsActivity"
+90-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:56:19-51
+91            android:exported="false"
+91-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:56:52-76
+92            android:parentActivityName="com.cyberraksha.guardian.MainActivity"
+92-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:57:13-55
+93            android:windowSoftInputMode="adjustResize" />
+93-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:58:13-55
+94        <activity
+94-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:59:9-60:57
+95            android:name="com.cyberraksha.guardian.AiNewsSelectionActivity"
+95-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:59:19-58
+96            android:exported="false"
+96-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:59:59-83
+97            android:parentActivityName="com.cyberraksha.guardian.MainActivity" />
+97-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:60:13-55
+98        <activity
+98-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:61:9-63:57
+99            android:name="com.cyberraksha.guardian.NewsDetectionActivity"
+99-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:61:19-56
+100            android:exported="false"
+100-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:61:57-81
+101            android:parentActivityName="com.cyberraksha.guardian.AiNewsSelectionActivity"
+101-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:62:13-66
+102            android:windowSoftInputMode="adjustResize" />
+102-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:63:13-55
+103        <activity
+103-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:64:9-65:57
+104            android:name="com.cyberraksha.guardian.ScanListActivity"
+104-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:64:19-51
+105            android:exported="false"
+105-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:64:52-76
+106            android:parentActivityName="com.cyberraksha.guardian.MainActivity" />
+106-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:65:13-55
+107        <activity
+107-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:66:9-67:57
+108            android:name="com.cyberraksha.guardian.NetworkSecurityActivity"
+108-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:66:19-58
+109            android:exported="false"
+109-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:66:59-83
+110            android:parentActivityName="com.cyberraksha.guardian.MainActivity" />
+110-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:67:13-55
+111        <activity
+111-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:68:9-69:57
+112            android:name="com.cyberraksha.guardian.SafeSearchActivity"
+112-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:68:19-53
+113            android:exported="false"
+113-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:68:54-78
+114            android:parentActivityName="com.cyberraksha.guardian.MainActivity" />
+114-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:69:13-55
+115        <activity
+115-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:70:9-72:57
+116            android:name="com.cyberraksha.guardian.PanicModeActivity"
+116-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:70:19-52
+117            android:exported="false"
+117-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:70:53-77
+118            android:label="Emergency Shield"
+118-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:71:13-45
+119            android:parentActivityName="com.cyberraksha.guardian.MainActivity" />
+119-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:72:13-55
+120        <activity
+120-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:73:9-74:57
+121            android:name="com.cyberraksha.guardian.BatteryOptimizerActivity"
+121-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:73:19-59
+122            android:exported="false"
+122-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:73:60-84
+123            android:parentActivityName="com.cyberraksha.guardian.MainActivity" />
+123-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:74:13-55
+124        <activity
+124-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:75:9-76:57
+125            android:name="com.cyberraksha.guardian.DataUsageActivity"
+125-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:75:19-52
+126            android:exported="false"
+126-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:75:53-77
+127            android:parentActivityName="com.cyberraksha.guardian.MainActivity" />
+127-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:76:13-55
+128        <activity
+128-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:77:9-78:57
+129            android:name="com.cyberraksha.guardian.JunkCleanerActivity"
+129-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:77:19-54
+130            android:exported="false"
+130-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:77:55-79
+131            android:parentActivityName="com.cyberraksha.guardian.MainActivity" />
+131-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:78:13-55
+132        <activity
+132-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:79:9-80:57
+133            android:name="com.cyberraksha.guardian.PrivacyAuditActivity"
+133-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:79:19-55
+134            android:exported="false"
+134-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:79:56-80
+135            android:parentActivityName="com.cyberraksha.guardian.MainActivity" />
+135-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:80:13-55
+136
+137        <service
+137-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:82:9-90:19
+138            android:name="com.cyberraksha.guardian.SafeSearchService"
+138-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:82:18-51
+139            android:exported="false"
+139-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:84:13-37
+140            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+140-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:83:13-79
+141            <intent-filter>
+141-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:85:13-87:29
+142                <action android:name="android.accessibilityservice.AccessibilityService" />
+142-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:86:17-91
+142-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:86:25-89
+143            </intent-filter>
+144
+145            <meta-data
+145-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:88:13-89:71
+146                android:name="android.accessibilityservice"
+146-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:88:24-67
+147                android:resource="@xml/accessibility_service_config" />
+147-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:89:17-69
+148        </service>
+149
+150        <!-- Dynamic Control Bar Overlay Service -->
+151        <service
+151-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:93:9-99:19
+152            android:name="com.cyberraksha.guardian.DynamicBarService"
+152-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:94:13-46
+153            android:exported="false"
+153-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:96:13-37
+154            android:foregroundServiceType="specialUse" >
+154-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:95:13-55
+155            <property
+155-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:97:13-98:105
+156                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+156-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:97:23-82
+157                android:value="Shows CyberRaksha Dynamic Control Bar overlay for security protection." />
+157-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:98:17-103
+158        </service>
+159        <service
+159-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:101:9-105:19
+160            android:name="com.cyberraksha.guardian.CallDetectionService"
+160-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:101:18-54
+161            android:exported="false"
+161-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:102:56-80
+162            android:foregroundServiceType="specialUse" >
+162-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:102:13-55
+163            <property
+163-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:97:13-98:105
+164                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+164-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:97:23-82
+165                android:value="Identifies spam calls to protect users from fraud." />
+165-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:98:17-103
+166        </service>
+167
+168        <!--
+169             Island Notification Listener — intercepts ALL system notifications
+170             Enables: music, calls, messages, timers, any app → Dynamic Island
+171             User grants: Settings → Notification Access → CyberRaksha
+172        -->
+173        <service
+173-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:111:9-119:19
+174            android:name="com.cyberraksha.guardian.IslandNotificationService"
+174-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:112:13-54
+175            android:exported="false"
+175-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:115:13-37
+176            android:label="CyberRaksha Island Notifications"
+176-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:113:13-61
+177            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+177-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:114:13-87
+178            <intent-filter>
+178-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:116:13-118:29
+179                <action android:name="android.service.notification.NotificationListenerService" />
+179-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:117:17-99
+179-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:117:25-96
+180            </intent-filter>
+181        </service>
+182
+183        <!--
+184             AppInstallReceiver — wires real PACKAGE_ADDED to BehaviorService
+185             This makes the Behavioral DNA Engine actually learn installed apps
+186        -->
+187        <receiver
+187-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:124:9-131:20
+188            android:name="com.cyberraksha.guardian.AppInstallReceiver"
+188-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:125:13-47
+189            android:exported="true" >
+189-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:126:13-36
+190            <intent-filter>
+190-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:127:13-130:29
+191                <action android:name="android.intent.action.PACKAGE_ADDED" />
+191-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:128:17-77
+191-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:128:25-75
+192
+193                <data android:scheme="package" />
+193-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:129:17-49
+193-->C:\Users\hp\Downloads\CyberRaksha_V3_complete\CyberRaksha_V3_island_fix\app\src\main\AndroidManifest.xml:129:23-47
+194            </intent-filter>
+195        </receiver>
+196
+197        <provider
+197-->[androidx.emoji2:emoji2:1.3.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\3329c7e782e2084b58154bfb7ebb9309\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+198            android:name="androidx.startup.InitializationProvider"
+198-->[androidx.emoji2:emoji2:1.3.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\3329c7e782e2084b58154bfb7ebb9309\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+199            android:authorities="com.cyberraksha.guardian.androidx-startup"
+199-->[androidx.emoji2:emoji2:1.3.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\3329c7e782e2084b58154bfb7ebb9309\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+200            android:exported="false" >
+200-->[androidx.emoji2:emoji2:1.3.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\3329c7e782e2084b58154bfb7ebb9309\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+201            <meta-data
+201-->[androidx.emoji2:emoji2:1.3.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\3329c7e782e2084b58154bfb7ebb9309\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+202                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+202-->[androidx.emoji2:emoji2:1.3.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\3329c7e782e2084b58154bfb7ebb9309\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+203                android:value="androidx.startup" />
+203-->[androidx.emoji2:emoji2:1.3.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\3329c7e782e2084b58154bfb7ebb9309\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+204            <meta-data
+204-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\1a73ac53c7e4260e7e5f292dd65ff831\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+205                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+205-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\1a73ac53c7e4260e7e5f292dd65ff831\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+206                android:value="androidx.startup" />
+206-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hp\.gradle\caches\9.3.1\transforms\1a73ac53c7e4260e7e5f292dd65ff831\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+207            <meta-data
+207-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+208                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+208-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+209                android:value="androidx.startup" />
+209-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+210        </provider>
+211
+212        <receiver
+212-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+213            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+213-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+214            android:directBootAware="false"
+214-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+215            android:enabled="true"
+215-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+216            android:exported="true"
+216-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+217            android:permission="android.permission.DUMP" >
+217-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+218            <intent-filter>
+218-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+219                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+219-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+219-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+220            </intent-filter>
+221            <intent-filter>
+221-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+222                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+222-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+222-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+223            </intent-filter>
+224            <intent-filter>
+224-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+225                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+225-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+225-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+226            </intent-filter>
+227            <intent-filter>
+227-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+228                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+228-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+228-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\hp\.gradle\caches\9.3.1\transforms\01e710518fae6c58a5b56b287346797b\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+229            </intent-filter>
+230        </receiver>
+231    </application>
+232
+233</manifest>

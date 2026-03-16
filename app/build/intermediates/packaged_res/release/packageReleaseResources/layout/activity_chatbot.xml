@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:fitsSystemWindows="true"
+    tools:context=".ChatbotActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:elevation="0dp">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/chatbotToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/backgroundColor"
+            app:title="CyberRaksha AI"
+            app:titleCentered="true"
+            app:titleTextAppearance="@style/ToolbarTitleBold"
+            app:titleTextColor="@color/primaryColor"
+            app:navigationIcon="?attr/homeAsUpIndicator"
+            app:navigationIconTint="@color/primaryColor" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <ScrollView
+            android:id="@+id/chatScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:clipToPadding="false"
+            android:fillViewport="true"
+            android:padding="12dp"
+            app:layout_constraintBottom_toTopOf="@+id/inputArea"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:id="@+id/chatMessagesContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:divider="@android:color/transparent"
+                android:showDividers="middle"
+                android:dividerPadding="8dp" />
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/inputArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/backgroundColor"
+            android:elevation="8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="8dp"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/card_background"
+                app:cardCornerRadius="24dp"
+                app:cardElevation="0dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/divider_color">
+
+                <EditText
+                    android:id="@+id/etMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="Ask about security..."
+                    android:importantForAutofill="no"
+                    android:inputType="textMultiLine"
+                    android:maxLines="4"
+                    android:minHeight="48dp"
+                    android:paddingHorizontal="16dp"
+                    android:textColor="@color/text_primary"
+                    android:textColorHint="@color/chat_hint"
+                    android:textSize="15sp" />
+            </androidx.cardview.widget.CardView>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/btnSend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                app:backgroundTint="@color/primaryColor"
+                app:elevation="2dp"
+                app:fabCustomSize="48dp"
+                app:srcCompat="@android:drawable/ic_menu_send"
+                app:tint="@color/backgroundColor" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

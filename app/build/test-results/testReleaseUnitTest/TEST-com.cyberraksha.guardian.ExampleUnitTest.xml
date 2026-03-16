@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cyberraksha.guardian.ExampleUnitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-03-16T10:21:39.572Z" hostname="LAPTOP-V9G1J95A" time="0.016">
+  <properties/>
+  <testcase name="addition_isCorrect" classname="com.cyberraksha.guardian.ExampleUnitTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

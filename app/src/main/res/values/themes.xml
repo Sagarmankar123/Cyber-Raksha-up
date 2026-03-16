@@ -1,0 +1,57 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.CyberRaksha" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/primaryLightColor</item>
+        <item name="colorOnPrimaryContainer">@color/primaryColor</item>
+        <item name="colorSecondary">@color/primaryDarkColor</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/backgroundColor</item>
+        <item name="colorSurface">@color/surface_white</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorSurfaceVariant">@color/backgroundColor</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="Theme.CyberRaksha" parent="Base.Theme.CyberRaksha" />
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/backgroundColor</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="windowSplashScreenAnimationDuration">2000</item>
+        <item name="postSplashScreenTheme">@style/Theme.CyberRaksha</item>
+    </style>
+
+    <style name="Theme.App.Splash" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowBackground">@color/backgroundColor</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="ToolbarTitleBold" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/primaryColor</item>
+    </style>
+
+    <!-- Turbo Mode Dark Theme for V2 -->
+    <style name="Theme.CyberRaksha.Turbo" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">#B400FF</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:windowBackground">#0A0A0A</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="colorSurface">#0D1117</item>
+        <item name="colorOnSurface">@color/white</item>
+    </style>
+
+</resources>

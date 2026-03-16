@@ -1,0 +1,26 @@
+<variant
+    name="debug"
+    package="com.cyberraksha.guardian"
+    minSdkVersion="26"
+    targetSdkVersion="35"
+    debuggable="true"
+    mergedManifest="build\intermediates\merged_manifest\debug\processDebugMainManifest\AndroidManifest.xml"
+    partialResultsDir="build\intermediates\unit_test_lint_partial_results\debug\lintAnalyzeDebugUnitTest\out"
+    desugaredMethodsFiles="C:\Users\hp\.gradle\caches\9.3.1\transforms\ec35dde3330bc1260b8a85afccb0a1a1\workspace\transformed\D8BackportedDesugaredMethods.txt">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+  </sourceProviders>
+  <testSourceProviders>
+    <sourceProvider
+        manifests="src\test\AndroidManifest.xml"
+        javaDirectories="src\test\java;src\testDebug\java;src\test\kotlin;src\testDebug\kotlin"
+        assetsDirectories="src\test\assets;src\testDebug\assets"
+        unitTest="true"/>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <artifact
+      type="UNIT_TEST">
+  </artifact>
+</variant>

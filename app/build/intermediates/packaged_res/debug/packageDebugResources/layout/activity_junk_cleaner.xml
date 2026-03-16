@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#F5F7F6">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/junkToolbar"
+            android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"
+            android:background="#1FAF8B" app:title="Junk Cleaner"
+            app:titleTextColor="#FFFFFF" app:navigationIcon="@drawable/ic_launcher_foreground"
+            app:navigationIconTint="#FFFFFF"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" android:padding="16dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp" app:cardCornerRadius="20dp"
+                app:cardElevation="4dp" app:cardBackgroundColor="#0D1117">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:padding="24dp" android:gravity="center">
+                    <TextView android:text="🗑️" android:textSize="48sp"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    <TextView android:id="@+id/tvTotalJunk"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Tap Scan to start" android:textSize="20sp" android:textStyle="bold"
+                        android:textColor="#00FF94" android:layout_marginTop="8dp"/>
+                    <TextView android:id="@+id/tvFreeSpace"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:textColor="#AAAAAA" android:textSize="12sp"/>
+                    <TextView android:id="@+id/tvTotalSpace"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:textColor="#AAAAAA" android:textSize="12sp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <ProgressBar android:id="@+id/junkScanProgress"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent" android:layout_height="12dp"
+                android:max="100" android:progressTint="#1FAF8B"
+                android:layout_marginBottom="8dp" android:visibility="gone"/>
+            <TextView android:id="@+id/tvScanStatus"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textColor="#636E72" android:textSize="13sp" android:layout_marginBottom="12dp"/>
+            <Button android:id="@+id/btnScanJunk"
+                android:layout_width="match_parent" android:layout_height="56dp"
+                android:text="🔍 Scan for Junk" android:textColor="#FFFFFF"
+                android:backgroundTint="#1FAF8B" android:textSize="16sp" android:layout_marginBottom="8dp"/>
+            <Button android:id="@+id/btnCleanJunk"
+                android:layout_width="match_parent" android:layout_height="56dp"
+                android:text="🧹 Clean All Junk" android:textColor="#FFFFFF"
+                android:backgroundTint="#FF005C" android:textSize="16sp"
+                android:visibility="gone" android:layout_marginBottom="16dp"/>
+            <TextView android:id="@+id/tvCleanResult"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:padding="16dp" android:textSize="14sp" android:textColor="#1FAF8B"
+                android:background="#E8F5F2" android:layout_marginBottom="16dp" android:visibility="gone"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="Junk Items Found" android:textSize="16sp" android:textStyle="bold"
+                android:textColor="#2D3436" android:layout_marginBottom="8dp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvJunkItems"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">CyberRaksha</string>
+    <string name="health_score">97</string>
+    <string name="device_health_score">Device Health Score</string>
+    <string name="optimize_now">Optimize Now</string>
+    <string name="space_cleanup">Space Cleanup</string>
+    <string name="free_space">12.5 GB Free</string>
+    <string name="security_scan">Security Scan</string>
+    <string name="device_protected">Device Protected</string>
+    <string name="data_usage">2.4 GB Used</string>
+    <string name="used_data">2.4 GB Used</string>
+    <string name="app_manager">App Manager</string>
+    <string name="manage_apps">Manage Apps</string>
+    <string name="safe_search">Safe Search</string>
+    <string name="safe_search_desc">Secure Browsing</string>
+    <string name="emergency_shield">Emergency Shield</string>
+    <string name="emergency_shield_desc">Instant Lockdown</string>
+    <string name="recommended_tools">Recommended Tools</string>
+    <string name="battery">Battery</string>
+    <string name="phone_cooling">Phone Cooling</string>
+    <string name="junk_cleaner">Junk Cleaner</string>
+    <string name="booster">Booster</string>
+    <string name="phone_management">Phone Management</string>
+    <string name="utility_tools">Utility Tools</string>
+
+    <string name="checking_background">Checking background processes...</string>
+    <string name="checking_banking">Scanning banking app security...</string>
+    <string name="checking_network_safety">Analyzing network safety...</string>
+    <string name="checking_overlay">Checking for screen overlays...</string>
+    <string name="checking_sms_otp">Scanning SMS for OTP risks...</string>
+    <string name="checking_cam_mic">Monitoring camera and mic usage...</string>
+    <string name="checking_screen_recording">Detecting screen recording...</string>
+    <string name="banking_warning">WARNING: High risk banking apps detected!</string>
+    <string name="lockdown_complete_clean">Lockdown complete. No critical threats found.</string>
+    <string name="scan_status_perms">Checking sensitive permissions...</string>
+    <string name="scan_status_sms">Analyzing SMS messages...</string>
+    <string name="scan_status_phishing">Searching for phishing links...</string>
+    <string name="scan_status_cam_mic">Checking camera and microphone access...</string>
+    <string name="scan_status_apps">Analyzing installed apps...</string>
+    <string name="threat_level_label">Threat Level: %s</string>
+    <string name="security_score">Security Score: %d%%</string>
+    <string name="threat_explain_en">Suspicious activities detected. Some apps may be trying to access your sensitive data without authorization.</string>
+    <string name="threat_explain_hi">संदिग्ध गतिविधियां पाई गईं। कुछ ऐप्स आपकी अनुमति के बिना आपके संवेदनशील डेटा तक पहुंचने की कोशिश कर सकते हैं।</string>
+    <string name="guidance_banking">Monitor your bank statements regularly.</string>
+    <string name="guidance_passwords">Change your primary passwords immediately.</string>
+    <string name="guidance_bank_contact">Contact your bank to freeze accounts if needed.</string>
+    <string name="guidance_report">Report this incident to the cyber cell.</string>
+    <string name="btn_report_now">Report Now</string>
+    <string name="cyber_crime_portal_msg">Do you want to visit the National Cyber Crime Reporting Portal?</string>
+    <string name="cyber_crime_report_title">Report Cyber Crime</string>
+    <string name="helpline_1930">Call 1930 for immediate assistance.</string>
+    <string name="btn_back_to_safety">Go Back (Recommended)</string>
+
+    <!-- Safe Search Popup -->
+    <string name="unsafe_website_blocked">Unsafe Website Blocked</string>
+    <string name="threat_alert_title">Unsafe Website Blocked</string>
+    <string name="threat_alert_subtitle">Security Warning</string>
+    <string name="threat_description_default">This website may contain scams, malware, adult content, or harmful downloads that could damage your device or steal your information.</string>
+    <string name="btn_continue_anyway">Continue Anyway</string>
+    <string name="malicious_website_title">MALICIOUS WEBSITE!</string>
+    <string name="security_warning_title">SECURITY WARNING!</string>
+
+    <!-- Accessibility Service -->
+    <string name="accessibility_service_description">CyberRaksha uses this service to provide safe search and block malicious websites.</string>
+
+    <!-- Safe Search Activity -->
+    <string name="safe_search_title">Safe Search</string>
+    <string name="ai_shield_active">AI Shield Active</string>
+    <string name="real_time_url_protection">Real-time URL Protection</string>
+    <string name="how_it_works">How it works</string>
+    <string name="real_time_monitoring">Real-time monitoring</string>
+    <string name="real_time_monitoring_desc">Analyzes website links as you browse.</string>
+    <string name="ai_analysis">AI Analysis</string>
+    <string name="ai_analysis_desc">Uses Google Gemini to detect phishing and scams.</string>
+    <string name="enable_safe_search">Enable Safe Search Protection</string>
+    <string name="accessibility_permission_required">Requires Accessibility Permission</string>
+    <string name="test_protection">Test Protection</string>
+    <string name="test_protection_desc">Verify if the shield is working by visiting a test site.</string>
+    <string name="enable_instruction">Enable \'CyberRaksha\' in Accessibility Settings</string>
+
+    <!-- Emergency Shield (Panic Mode) Strings -->
+    <string name="panic_shield_title">Emergency Shield</string>
+    <string name="lockdown_stage_msg">Lockdown Stage Active</string>
+    <string name="btn_review_apps">Review Sensitive Apps</string>
+    <string name="btn_wifi_settings">Network Settings</string>
+    <string name="btn_continue_diagnosis">Deep Diagnosis</string>
+    <string name="diagnosis_stage_title">AI Security Diagnosis</string>
+    <string name="report_title">Security Audit Report</string>
+    <string name="detected_issues_label">Detected Issues</string>
+    <string name="threat_explanation_title">AI Threat Analysis</string>
+    <string name="quick_solutions_label">Quick Recovery Steps</string>
+    <string name="btn_remove_apps">Uninstall Threats</string>
+    <string name="btn_reset_perms">Reset Permissions</string>
+    <string name="btn_report_cyber_fraud">Report Cyber Fraud</string>
+    <string name="final_guidance_title">Expert Guidance</string>
+</resources>

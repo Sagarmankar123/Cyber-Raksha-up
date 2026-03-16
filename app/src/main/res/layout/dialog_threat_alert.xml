@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CC000000">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="28dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="16dp"
+        app:cardBackgroundColor="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Red top stripe like Safari -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:background="@color/status_danger" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="28dp"
+                android:gravity="center">
+
+                <!-- Shield warning icon -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="⚠️"
+                    android:textSize="52sp" />
+
+                <TextView
+                    android:id="@+id/tvAlertTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Unsafe Website Blocked"
+                    android:textColor="@color/status_danger"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/tvAlertSubtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Security Warning"
+                    android:textColor="#666666"
+                    android:textSize="15sp"
+                    android:gravity="center" />
+
+                <!-- URL box - grey pill like Safari -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardBackgroundColor="#F5F5F5"
+                    app:strokeWidth="0dp"
+                    app:cardElevation="0dp">
+                    <TextView
+                        android:id="@+id/tvThreatUrl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+                        android:gravity="center"
+                        android:text="example.com"
+                        android:textColor="#333333"
+                        android:textSize="13sp"
+                        android:fontFamily="monospace"
+                        android:maxLines="2"
+                        android:ellipsize="middle" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/tvRiskDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:text="This website is flagged as potentially dangerous."
+                    android:textColor="#555555"
+                    android:textSize="14sp"
+                    android:lineSpacingExtra="4dp" />
+
+                <!-- Go Back button - red, primary action like Safari -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnBackToSafety"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_marginTop="24dp"
+                    android:text="Go Back (Recommended)"
+                    android:textAllCaps="false"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="12dp"
+                    app:backgroundTint="@color/status_danger" />
+
+                <!-- Continue Anyway - subtle text link like Safari -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnIgnore"
+                    style="@style/Widget.Material3.Button.TextButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Continue Anyway"
+                    android:textAllCaps="false"
+                    android:textColor="#888888"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>
